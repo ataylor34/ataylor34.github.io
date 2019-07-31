@@ -1,0 +1,123 @@
+<style>
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+h3 {
+	color:  #f86454;
+	font-size: 25px;
+    font-family:sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color:#f5f5ef;
+    text-align: center;
+    font-size: 30px; 
+    font-family: sans-serif;
+}
+h4 {
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: left;
+}
+body {
+    background-color: #94b8b8;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#plain, img{
+    border: 0px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+hover.img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+<body>
+
+img.logo {
+	color: #ff8080;
+	font-size: 50px;
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3d5c5c;
+
+}
+
+ul {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+li a:hover {
+  background-color: #476b6b;
+}
+
